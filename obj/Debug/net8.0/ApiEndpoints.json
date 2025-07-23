@@ -1,0 +1,170 @@
+[
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "Get",
+    "RelativePath": "api/Faq",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ChatbotFAQApi.Models.FaqItem, ChatbotFAQApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "Post",
+    "RelativePath": "api/Faq",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faq",
+        "Type": "ChatbotFAQApi.Models.FaqItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "GetById",
+    "RelativePath": "api/Faq/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "PutFaqs",
+    "RelativePath": "api/Faq/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedFaq",
+        "Type": "ChatbotFAQApi.Models.FaqItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "Delete",
+    "RelativePath": "api/Faq/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "DeleteAll",
+    "RelativePath": "api/Faq/all",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "PostBulkFaqs",
+    "RelativePath": "api/Faq/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChatbotFAQApi.Models.FaqBulkRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "ContinueChat",
+    "RelativePath": "api/Faq/chat/{sessionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ChatbotFAQApi.Controllers.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "GetChatHistory",
+    "RelativePath": "api/Faq/chat/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatbotFAQApi.Controllers.FaqController",
+    "Method": "StartChat",
+    "RelativePath": "api/Faq/chat/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChatbotFAQApi.Controllers.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
