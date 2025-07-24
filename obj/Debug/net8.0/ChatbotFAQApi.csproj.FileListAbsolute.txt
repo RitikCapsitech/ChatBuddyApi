@@ -39,3 +39,4 @@ C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\Cha
 C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ChatbotFAQApi.genruntimeconfig.cache
 C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ref\ChatbotFAQApi.dll
 C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ChatbotFAQApi.sourcelink.json
+C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
