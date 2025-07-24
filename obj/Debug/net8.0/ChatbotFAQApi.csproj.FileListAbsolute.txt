@@ -38,3 +38,4 @@ C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ref
 C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ChatbotFAQApi.pdb
 C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ChatbotFAQApi.genruntimeconfig.cache
 C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ref\ChatbotFAQApi.dll
+C:\Users\CT_USER\Desktop\webapi\ChatbotFAQApi\ChatbotFAQApi\obj\Debug\net8.0\ChatbotFAQApi.sourcelink.json
